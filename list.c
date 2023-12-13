@@ -158,4 +158,3 @@ void free_list(list_t **head_ptr)
 	*head_ptr = NULL;
 }
 
-
