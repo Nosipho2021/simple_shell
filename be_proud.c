@@ -12,13 +12,13 @@ int main(void)
 
 	while (1)
 	{
-	printf("($) ");
-	getline(&line, &len, stdin);
+		printf("($) ");
+		getline(&line, &len, stdin);
 
-	if
+	if (strcmp(line, "exit\n") == 0)
 	{
-	free(line);
-	exit(EXIT_SUCCESS);
+		free(line);
+		exit(EXIT_SUCCESS);
 	}
 	}
 
