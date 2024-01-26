@@ -11,27 +11,27 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/\s\+$
+~MSle0/**
 
 # Last Substitute Search Pattern:
-~MSle0&\s\+$
+~MSle0~&\s\+$
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1705512918,,"wq"
+|2,0,1705790050,,"wq"
+:q!
+|2,0,1705789790,,"q!"
 :%s/\s\+$
-|2,0,1705014193,,"%s/\\s\\+$"
+|2,0,1705789720,,"%s/\\s\\+$"
 :set number
-|2,0,1705014061,,"set number"
+|2,0,1705789608,,"set number"
 :%S/\s\+$
 |2,0,1704999261,,"%S/\\s\\+$"
 :%5s/\s\+$
 |2,0,1704998668,,"%5s/\\s\\+$"
-:q!
-|2,0,1704991378,,"q!"
 :%s/\s\+$/
 |2,0,1704410505,,"%s/\\s\\+$/"
 :q
@@ -49,7 +49,9 @@ $
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1705014193,,"\\s\\+$"
+|2,1,1705789720,,"\\s\\+$"
+?/**
+|2,1,1705560464,47,"**"
 ? @$
 |2,1,1704991312,,"@$"
 
@@ -60,241 +62,762 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
+"0	CHAR	0
 	.
-|3,1,0,0,1,0,1704999261,"."
-"w	CHAR	0
-	€ýai€ýa;€ýa€ýa€ýa€ýa€ýa;i€ýa€ýa;w
-|3,0,32,0,1,0,1704216742,"€ýai€ýa;€ýa€ýa€ýa€ýa€ýa;i€ýa€ýa;w"
-"-	CHAR	0
-	.
-|3,0,36,0,1,0,1704995907,"."
+|3,0,0,0,1,0,1704999261,"."
+""-	CHAR	0
+	{
+|3,1,36,0,1,0,1705786102,"{"
 
 # File marks:
-'0  8  12  ~/.git/MERGE_MSG
-|4,48,8,12,1705512918,"~/.git/MERGE_MSG"
-'1  38  1  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,49,38,1,1705014198,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
-'2  29  10  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,50,29,10,1705014015,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
-'3  29  10  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,51,29,10,1705014015,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
-'4  35  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,52,35,0,1705013273,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
-'5  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,53,36,0,1705013230,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
-'6  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,54,36,0,1705013230,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
-'7  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,55,43,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
-'8  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,56,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
-'9  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,57,43,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
+'0  5  11  ~/monty/add.c
+|4,48,5,11,1705790050,"~/monty/add.c"
+'1  5  60  ~/monty/monty.c
+|4,49,5,60,1705789913,"~/monty/monty.c"
+'2  1  0  ~/monty/monthy.c
+|4,50,1,0,1705789790,"~/monty/monthy.c"
+'3  4  3  ~/monty/monty.c
+|4,51,4,3,1705789734,"~/monty/monty.c"
+'4  4  3  ~/monty/monty.c
+|4,52,4,3,1705789734,"~/monty/monty.c"
+'5  23  0  ~/monty/monty.c
+|4,53,23,0,1705789650,"~/monty/monty.c"
+'6  23  0  ~/monty/monty.c
+|4,54,23,0,1705789650,"~/monty/monty.c"
+'7  22  0  ~/monty/monty.c
+|4,55,22,0,1705789650,"~/monty/monty.c"
+'8  22  0  ~/monty/monty.c
+|4,56,22,0,1705789650,"~/monty/monty.c"
+'9  20  7  ~/monty/monty.c
+|4,57,20,7,1705789544,"~/monty/monty.c"
 
 # Jumplist (newest first):
--'  8  12  ~/.git/MERGE_MSG
-|4,39,8,12,1705512918,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1705512844,"~/.git/MERGE_MSG"
--'  38  1  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,38,1,1705014198,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  38  1  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,38,1,1705014198,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  18  11  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,18,11,1705014193,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  18  11  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,18,11,1705014193,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  29  10  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,29,10,1705014048,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  29  10  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,29,10,1705014048,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  29  10  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,29,10,1705014015,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  29  10  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,29,10,1705014015,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  48  11  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,48,11,1705013537,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  48  11  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,48,11,1705013537,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  48  11  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,48,11,1705013537,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  48  11  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,48,11,1705013537,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  50  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,50,0,1705013420,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  50  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,50,0,1705013420,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  50  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,50,0,1705013420,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  50  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
-|4,39,50,0,1705013420,"~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c"
--'  35  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,35,0,1705013273,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  35  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,35,0,1705013273,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  35  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,35,0,1705013273,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  35  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,35,0,1705013273,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  35  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,35,0,1705013273,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  35  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,35,0,1705013273,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  35  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,35,0,1705013273,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  35  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,35,0,1705013273,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013250,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013250,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013250,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013250,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013250,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013250,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013250,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013250,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013230,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013230,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013230,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013230,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013230,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013230,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013230,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  36  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,36,0,1705013230,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  43  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,43,0,1705013124,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  44  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,44,0,1705012914,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  60  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,60,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  61  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,61,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  60  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,60,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  61  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,61,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  60  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,60,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  61  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,61,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  60  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,60,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  61  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,61,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  60  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,60,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  61  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,61,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  60  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,60,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  61  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,61,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  60  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,60,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  61  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,61,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  60  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,60,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  61  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,61,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  60  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,60,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  61  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,61,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  60  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,60,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  61  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,61,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  60  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,60,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  61  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,61,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  60  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,60,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  61  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,61,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  60  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,60,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
--'  61  0  ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
-|4,39,61,0,1705012378,"~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c"
+-'  5  11  ~/monty/add.c
+|4,39,5,11,1705790050,"~/monty/add.c"
+-'  4  4  ~/monty/add.c
+|4,39,4,4,1705790016,"~/monty/add.c"
+-'  5  60  ~/monty/monty.c
+|4,39,5,60,1705789913,"~/monty/monty.c"
+-'  5  60  ~/monty/monty.c
+|4,39,5,60,1705789913,"~/monty/monty.c"
+-'  4  3  ~/monty/monty.c
+|4,39,4,3,1705789800,"~/monty/monty.c"
+-'  4  3  ~/monty/monty.c
+|4,39,4,3,1705789800,"~/monty/monty.c"
+-'  1  0  ~/monty/monthy.c
+|4,39,1,0,1705789790,"~/monty/monthy.c"
+-'  1  0  ~/monty/monthy.c
+|4,39,1,0,1705789790,"~/monty/monthy.c"
+-'  1  0  ~/monty/monthy.c
+|4,39,1,0,1705789790,"~/monty/monthy.c"
+-'  1  0  ~/monty/monthy.c
+|4,39,1,0,1705789790,"~/monty/monthy.c"
+-'  4  3  ~/monty/monty.c
+|4,39,4,3,1705789734,"~/monty/monty.c"
+-'  4  3  ~/monty/monty.c
+|4,39,4,3,1705789734,"~/monty/monty.c"
+-'  4  3  ~/monty/monty.c
+|4,39,4,3,1705789734,"~/monty/monty.c"
+-'  4  3  ~/monty/monty.c
+|4,39,4,3,1705789734,"~/monty/monty.c"
+-'  24  0  ~/monty/monty.c
+|4,39,24,0,1705789720,"~/monty/monty.c"
+-'  23  0  ~/monty/monty.c
+|4,39,23,0,1705789720,"~/monty/monty.c"
+-'  23  0  ~/monty/monty.c
+|4,39,23,0,1705789720,"~/monty/monty.c"
+-'  24  0  ~/monty/monty.c
+|4,39,24,0,1705789720,"~/monty/monty.c"
+-'  23  0  ~/monty/monty.c
+|4,39,23,0,1705789720,"~/monty/monty.c"
+-'  23  0  ~/monty/monty.c
+|4,39,23,0,1705789720,"~/monty/monty.c"
+-'  23  0  ~/monty/monty.c
+|4,39,23,0,1705789674,"~/monty/monty.c"
+-'  22  0  ~/monty/monty.c
+|4,39,22,0,1705789674,"~/monty/monty.c"
+-'  22  0  ~/monty/monty.c
+|4,39,22,0,1705789674,"~/monty/monty.c"
+-'  23  0  ~/monty/monty.c
+|4,39,23,0,1705789674,"~/monty/monty.c"
+-'  22  0  ~/monty/monty.c
+|4,39,22,0,1705789674,"~/monty/monty.c"
+-'  22  0  ~/monty/monty.c
+|4,39,22,0,1705789674,"~/monty/monty.c"
+-'  22  0  ~/monty/monty.c
+|4,39,22,0,1705789650,"~/monty/monty.c"
+-'  22  0  ~/monty/monty.c
+|4,39,22,0,1705789650,"~/monty/monty.c"
+-'  22  0  ~/monty/monty.c
+|4,39,22,0,1705789650,"~/monty/monty.c"
+-'  22  0  ~/monty/monty.c
+|4,39,22,0,1705789650,"~/monty/monty.c"
+-'  4  2  ~/monty/monty.c
+|4,39,4,2,1705789643,"~/monty/monty.c"
+-'  4  2  ~/monty/monty.c
+|4,39,4,2,1705789643,"~/monty/monty.c"
+-'  4  2  ~/monty/monty.c
+|4,39,4,2,1705789643,"~/monty/monty.c"
+-'  4  2  ~/monty/monty.c
+|4,39,4,2,1705789643,"~/monty/monty.c"
+-'  20  7  ~/monty/monty.c
+|4,39,20,7,1705789596,"~/monty/monty.c"
+-'  19  7  ~/monty/monty.c
+|4,39,19,7,1705789596,"~/monty/monty.c"
+-'  19  7  ~/monty/monty.c
+|4,39,19,7,1705789596,"~/monty/monty.c"
+-'  19  7  ~/monty/monty.c
+|4,39,19,7,1705789596,"~/monty/monty.c"
+-'  19  7  ~/monty/monty.c
+|4,39,19,7,1705789596,"~/monty/monty.c"
+-'  20  7  ~/monty/monty.c
+|4,39,20,7,1705789596,"~/monty/monty.c"
+-'  19  7  ~/monty/monty.c
+|4,39,19,7,1705789596,"~/monty/monty.c"
+-'  19  7  ~/monty/monty.c
+|4,39,19,7,1705789596,"~/monty/monty.c"
+-'  19  7  ~/monty/monty.c
+|4,39,19,7,1705789596,"~/monty/monty.c"
+-'  19  7  ~/monty/monty.c
+|4,39,19,7,1705789596,"~/monty/monty.c"
+-'  19  7  ~/monty/monty.c
+|4,39,19,7,1705789544,"~/monty/monty.c"
+-'  18  7  ~/monty/monty.c
+|4,39,18,7,1705789544,"~/monty/monty.c"
+-'  18  7  ~/monty/monty.c
+|4,39,18,7,1705789544,"~/monty/monty.c"
+-'  18  7  ~/monty/monty.c
+|4,39,18,7,1705789544,"~/monty/monty.c"
+-'  18  7  ~/monty/monty.c
+|4,39,18,7,1705789544,"~/monty/monty.c"
+-'  19  7  ~/monty/monty.c
+|4,39,19,7,1705789544,"~/monty/monty.c"
+-'  18  7  ~/monty/monty.c
+|4,39,18,7,1705789544,"~/monty/monty.c"
+-'  18  7  ~/monty/monty.c
+|4,39,18,7,1705789544,"~/monty/monty.c"
+-'  18  7  ~/monty/monty.c
+|4,39,18,7,1705789544,"~/monty/monty.c"
+-'  18  7  ~/monty/monty.c
+|4,39,18,7,1705789544,"~/monty/monty.c"
+-'  1  0  ~/monty/monty.c
+|4,39,1,0,1705789182,"~/monty/monty.c"
+-'  1  0  ~/monty/monty.c
+|4,39,1,0,1705789182,"~/monty/monty.c"
+-'  1  0  ~/monty/monty.c
+|4,39,1,0,1705789182,"~/monty/monty.c"
+-'  1  0  ~/monty/monty.c
+|4,39,1,0,1705789182,"~/monty/monty.c"
+-'  1  0  ~/monty/monty.c
+|4,39,1,0,1705789182,"~/monty/monty.c"
+-'  1  0  ~/monty/monty.c
+|4,39,1,0,1705789182,"~/monty/monty.c"
+-'  1  0  ~/monty/monty.c
+|4,39,1,0,1705789182,"~/monty/monty.c"
+-'  1  0  ~/monty/monty.c
+|4,39,1,0,1705789182,"~/monty/monty.c"
+-'  1  0  ~/monty/monty.c
+|4,39,1,0,1705789182,"~/monty/monty.c"
+-'  1  0  ~/monty/monty.c
+|4,39,1,0,1705789182,"~/monty/monty.c"
+-'  1  0  ~/monty/monty.c
+|4,39,1,0,1705789182,"~/monty/monty.c"
+-'  1  0  ~/monty/monty.c
+|4,39,1,0,1705789182,"~/monty/monty.c"
+-'  1  0  ~/monty/monty.c
+|4,39,1,0,1705789182,"~/monty/monty.c"
+-'  1  0  ~/monty/monty.c
+|4,39,1,0,1705789182,"~/monty/monty.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
+-'  2  0  ~/monty/main.c
+|4,39,2,0,1705789155,"~/monty/main.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/monty/add.c
+	*	1705790048	0
+	"	5	11
+	^	5	12
+	.	5	11
+	+	22	1
+	+	21	0
+	+	20	0
+	+	18	0
+	+	17	0
+	+	15	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	8	6
+	+	4	11
+	+	5	11
+
+> ~/monty/monty.c
+	*	1705789910	0
+	"	5	60
+	^	5	61
+	.	5	60
+	+	1	1
+	+	34	1
+	+	33	0
+	+	25	0
+	+	3	16
+	+	9	0
+	+	8	0
+	+	5	3
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	10	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	26	0
+	+	3	0
+	+	6	0
+	+	5	60
+
+> ~/monty/monthy.c
+	*	1705789788	0
+	"	1	0
+
+> ~/monty/main.c
+	*	1705789149	0
+	"	2	0
+	^	2	0
+	.	1	18
+	+	1	18
+	+	46	0
+	+	44	0
+	+	1	18
+
+> ~/monty/token.c
+	*	1705788838	0
+	"	28	0
+	^	28	0
+	.	27	1
+	+	27	1
+
+> ~/monty/monty.h
+	*	1705788725	0
+	"	77	0
+	^	75	78
+	.	75	77
+	+	80	20
+	+	66	52
+	+	73	53
+	+	75	0
+	+	57	0
+	+	8	17
+	+	75	76
+	+	41	16
+	+	80	7
+	+	71	6
+	+	70	6
+	+	69	6
+	+	68	6
+	+	67	6
+	+	66	6
+	+	65	6
+	+	64	6
+	+	63	6
+	+	62	7
+	+	61	6
+	+	60	6
+	+	57	6
+	+	56	6
+	+	72	6
+	+	73	6
+	+	74	7
+	+	77	0
+	+	74	7
+	+	77	35
+	+	79	0
+	+	76	31
+	+	77	35
+	+	78	57
+	+	75	77
+
+> ~/monty/node.c
+	*	1705788543	0
+	"	5	15
+	^	5	16
+	.	6	0
+	+	23	0
+	+	5	16
+	+	6	0
+
+> ~/monty/pall.c
+	*	1705788010	0
+	"	8	0
+	^	7	7
+	.	7	6
+	+	14	1
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	7	6
+
+> ~/monty/pall
+	*	1705787930	0
+	"	1	0
+
+> ~/monty/free_stack.c
+	*	1705787210	0
+	"	11	1
+	^	12	0
+	.	10	0
+	+	19	1
+	+	1	0
+	+	20	0
+	+	17	1
+	+	6	0
+	+	8	0
+	+	10	0
+	+	11	0
+	+	13	0
+	+	15	0
+	+	16	0
+	+	14	0
+	+	9	8
+	+	10	1
+	+	9	0
+	+	12	0
+	+	10	0
+
+> ~/monty/stack_queue.c
+	*	1705786571	0
+	"	8	6
+	^	8	7
+	.	8	6
+	+	44	1
+	+	43	0
+	+	42	0
+	+	43	0
+	+	41	0
+	+	40	0
+	+	37	0
+	+	35	0
+	+	34	0
+	+	33	0
+	+	31	0
+	+	30	0
+	+	29	0
+	+	27	0
+	+	26	0
+	+	24	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	14	0
+	+	38	0
+	+	22	6
+	+	18	4
+	+	8	6
+
+> ~/monty/swap.c
+	*	1705785314	0
+	"	5	1
+	^	4	5
+	.	4	4
+	+	21	1
+	+	8	6
+	+	4	4
+
+> ~/monty/sub.c
+	*	1705785243	0
+	"	5	1
+	^	4	5
+	.	4	4
+	+	22	1
+	+	8	6
+	+	4	4
+
+> ~/monty/pchar.c
+	*	1705785131	0
+	"	8	6
+	^	8	7
+	.	8	6
+	+	27	1
+	+	4	4
+	+	9	1
+	+	8	6
+
+> ~/monty/pstr.c
+	*	1705785007	0
+	"	4	4
+	^	4	5
+	.	4	4
+	+	24	1
+	+	23	0
+	+	22	0
+	+	20	0
+	+	19	8
+	+	8	6
+	+	4	4
+
+> ~/monty/pop.c
+	*	1705784524	0
+	"	4	4
+	^	4	5
+	.	4	4
+	+	21	1
+	+	8	6
+	+	4	4
+
+> ~/monty/pint.c
+	*	1705784356	0
+	"	4	4
+	^	4	5
+	.	4	4
+	+	19	1
+	+	18	0
+	+	17	0
+	+	15	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	8	6
+	+	4	4
+
+> ~/monty/rotl.c
+	*	1705783994	0
+	"	9	0
+	^	8	8
+	.	8	7
+	+	31	1
+	+	10	0
+	+	11	0
+	+	13	0
+	+	12	0
+	+	15	0
+	+	16	0
+	+	19	0
+	+	20	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	4	4
+	+	9	1
+	+	8	7
+
+> ~/monty/rotr.c
+	*	1705783937	0
+	"	8	20
+	^	8	7
+	.	8	6
+	+	35	1
+	+	4	4
+	+	8	6
+
+> ~/monty/mul.c
+	*	1705783845	0
+	"	9	0
+	^	8	7
+	.	8	6
+	+	22	1
+	+	21	0
+	+	20	0
+	+	18	0
+	+	17	0
+	+	15	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	4	4
+	+	8	6
+
+> ~/monty/mod.c
+	*	1705783662	0
+	"	9	0
+	^	8	7
+	.	8	6
+	+	29	1
+	+	4	4
+	+	8	6
+
+> ~/monty/div.c
+	*	1705783605	0
+	"	5	1
+	^	4	8
+	.	4	8
+	+	29	1
+	+	28	0
+	+	27	0
+	+	25	0
+	+	24	0
+	+	22	0
+	+	21	0
+	+	20	0
+	+	19	0
+	+	18	0
+	+	17	0
+	+	15	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	4	4
+	+	8	10
+	+	4	8
+
+> ~/monty/execute.c
+	*	1705781290	0
+	"	1	16
+	^	1	16
+	.	50	1
+	+	1	1
+	+	53	0
+	+	51	0
+	+	50	1
+
+> ~/monty/bf/1000-school.bf.c
+	*	1705775574	0
+	"	1	0
+
+> ~/monty/bf/1001-add.bf.c
+	*	1705775557	0
+	"	5	0
+	^	5	1
+	.	5	0
+	+	3	14
+	+	4	0
+	+	7	37
+	+	14	26
+	+	17	48
+	+	19	0
+	+	23	24
+	+	26	0
+	+	24	0
+	+	23	0
+	+	21	0
+	+	20	0
+	+	19	0
+	+	18	0
+	+	17	0
+	+	15	0
+	+	14	0
+	+	12	0
+	+	11	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	5	0
+
+> ~/monty/bf/1003-mul.bf.c
+	*	1705775047	0
+	"	6	0
+	^	5	1
+	.	5	0
+	+	3	14
+	+	4	0
+	+	7	37
+	+	14	5
+	+	17	47
+	+	20	0
+	+	18	0
+	+	17	0
+	+	15	0
+	+	14	0
+	+	12	0
+	+	11	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	5	0
+
+> ~/monty/bf/1002-mul.bf.c
+	*	1705774622	0
+	"	21	0
+	^	21	1
+	.	21	0
+	+	3	14
+	+	4	0
+	+	7	37
+	+	14	31
+	+	17	49
+	+	23	5
+	+	26	0
+	+	24	0
+	+	23	0
+	+	20	14
+	+	20	0
+	+	18	0
+	+	17	0
+	+	15	0
+	+	14	0
+	+	12	0
+	+	11	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	5	1
+	+	18	18
+	+	19	0
+	+	21	0
+
+> ~/monty/bf/1000-school.bf.py
+	*	1705744242	0
+	"	1	0
+
+> ~/monty/bf/1003-mul.bf.py
+	*	1705744172	0
+	"	21	0
+	^	21	0
+	.	20	1
+	+	20	1
+
+> ~/monty/bf/1002-mul.bf.py
+	*	1705744110	0
+	"	26	0
+	^	26	0
+	.	25	1
+	+	25	1
+
+> ~/monty/bf/1001-add.bf.py
+	*	1705744004	0
+	"	1	0
+
+> ~/monty/bf/1001-add.bf
+	*	1705743951	0
+	"	26	0
+	^	26	0
+	.	25	1
+	+	25	1
+
+> ~/monty/bf/1000-school.bf
+	*	1705743792	0
+	"	3	0
+	^	3	0
+	.	2	69
+	+	2	69
+
+> ~/monty/bf/README.md
+	*	1705743735	0
+	"	38	0
+	^	38	0
+	.	37	0
+	+	1	20
+	+	10	14
+	+	5	14
+	+	18	55
+	+	14	0
+	+	9	0
+	+	37	0
+
+> ~/monty/nop.c
+	*	1705579230	0
+	"	11	0
+	^	11	1
+	.	11	0
+	+	15	1
+	+	12	0
+	+	11	0
+
+> ~/monty/pop.h
+	*	1705533123	0
+	"	4	17
+	^	4	18
+	.	4	17
+	+	6	19
+	+	1	10
+	+	2	10
+	+	4	17
+	+	4	23
+	+	6	12
+	+	4	17
+
+> ~/monty/push.h
+	*	1705532876	0
+	"	7	0
+	^	7	0
+	.	6	19
+	+	6	19
+
+> ~/monty/README.md
+	*	1705531379	0
+	"	5	13
+	^	5	14
+	.	5	13
+	+	5	13
 
 > ~/.git/MERGE_MSG
 	*	1705512915	0
@@ -1031,480 +1554,3 @@ $
 	.	14	0
 	+	13	19
 	+	14	0
-
-> ~/alx-higher_level_programming/0x03-python-data_structures/7-add_tuple.py
-	*	1704661615	0
-	"	8	3
-	^	8	4
-	.	8	3
-	+	8	20
-	+	9	0
-	+	8	3
-
-> ~/alx-higher_level_programming/0x03-python-data_structures/8-multiple_returns.py
-	*	1704661443	0
-	"	5	38
-	^	5	39
-	.	5	38
-	+	5	38
-
-> ~/alx-higher_level_programming/0x03-python-data_structures/9-max_integer.py
-	*	1704661227	0
-	"	9	17
-	^	9	18
-	.	9	17
-	+	9	17
-
-> ~/alx-higher_level_programming/0x03-python-data_structures/10-divisible_by_2.py
-	*	1704661133	0
-	"	3	3
-	^	3	4
-	.	3	3
-	+	3	74
-	+	4	0
-	+	3	3
-
-> ~/alx-higher_level_programming/0x03-python-data_structures/11-delete_at.py
-	*	1704661060	0
-	"	6	3
-	^	6	4
-	.	6	3
-	+	6	3
-
-> ~/alx-higher_level_programming/0x03-python-data_structures/12-switch.py
-	*	1704661002	0
-	"	5	36
-	^	5	37
-	.	6	0
-	+	5	37
-	+	6	0
-
-> ~/alx-higher_level_programming/0x03-python-data_structures/13-is_palindrome.c,
-	*	1704642433	0
-	"	1	0
-	^	1	0
-	.	53	1
-	+	53	1
-
-> ~/alx-higher_level_programming/0x03-python-data_structures/lists.h
-	*	1704641755	0
-	"	36	35
-	^	36	36
-	.	36	35
-	+	39	20
-	+	24	0
-	+	3	0
-	+	20	0
-	+	1	19
-	+	3	15
-	+	4	0
-	+	18	12
-	+	24	35
-	+	36	35
-
-> ~/alx-higher_level_programming/0x03-python-data_structures/README.md
-	*	1704638283	0
-	"	4	0
-	^	4	0
-	.	3	0
-	+	3	0
-
-> ~/alx-higher_level_programming/0x00-python-hello_world/10-check_cycle.c
-	*	1704414423	0
-	"	26	0
-	^	26	1
-	.	25	0
-	+	1	13
-	+	1	0
-	+	1	1
-	+	1	0
-	+	26	1
-	+	27	0
-	+	1	1
-	+	4	0
-	+	5	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	27
-	+	11	30
-	+	12	32
-	+	13	0
-	+	12	19
-	+	11	19
-	+	14	19
-	+	20	45
-	+	19	27
-	+	17	31
-	+	21	52
-	+	25	20
-	+	21	54
-	+	14	41
-	+	12	33
-	+	11	0
-	+	4	0
-	+	5	4
-	+	6	0
-	+	7	0
-	+	8	0
-	+	7	0
-	+	11	0
-	+	12	0
-	+	14	0
-	+	15	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	22	0
-	+	23	0
-	+	25	0
-
-> ~/alx-higher_level_programming/0x00-python-hello_world/9-easter_egg.py
-	*	1704407970	0
-	"	2	10
-	^	2	11
-	.	3	0
-	+	1	16
-	+	2	11
-	+	3	0
-
-> ~/alx-higher_level_programming/0x00-python-hello_world/8-concat_edges.py
-	*	1704407728	0
-	"	5	9
-	^	5	10
-	.	6	0
-	+	2	41
-	+	2	10
-	+	2	155
-	+	2	145
-	+	5	10
-	+	6	0
-
-> ~/alx-higher_level_programming/0x02-python-import_modules/README.md
-	*	1704384835	0
-	"	157	0
-	^	157	0
-	.	156	0
-	+	2	0
-	+	31	46
-	+	156	0
-
-> ~/alx-higher_level_programming/0x02-python-import_modules/wc
-	*	1704365915	0
-	"	1	0
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/13-insert_number.c
-	*	1704321673	0
-	"	13	30
-	^	13	31
-	.	13	30
-	+	1	1
-	+	32	1
-	+	33	0
-	+	31	0
-	+	29	0
-	+	28	0
-	+	26	0
-	+	25	0
-	+	24	0
-	+	23	0
-	+	22	0
-	+	21	0
-	+	20	0
-	+	19	1
-	+	18	0
-	+	17	0
-	+	16	0
-	+	15	0
-	+	13	0
-	+	31	14
-	+	29	18
-	+	28	17
-	+	29	5
-	+	28	4
-	+	26	22
-	+	25	50
-	+	23	14
-	+	22	12
-	+	23	13
-	+	26	21
-	+	29	20
-	+	21	4
-	+	19	31
-	+	18	4
-	+	17	16
-	+	18	21
-	+	15	32
-	+	13	30
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/5-print_comb2.py
-	*	1704316324	0
-	"	4	25
-	^	4	26
-	.	5	0
-	+	1	18
-	+	2	31
-	+	2	24
-	+	2	7
-	+	2	3
-	+	2	0
-	+	2	58
-	+	2	0
-	+	2	30
-	+	2	23
-	+	2	3
-	+	2	8
-	+	2	11
-	+	2	7
-	+	4	26
-	+	5	0
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/6-print_comb3.py
-	*	1704316032	0
-	"	6	23
-	^	6	24
-	.	7	0
-	+	1	18
-	+	2	34
-	+	2	36
-	+	2	3
-	+	2	7
-	+	2	0
-	+	6	24
-	+	7	0
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/8-uppercase.py
-	*	1704315669	0
-	"	7	12
-	^	7	13
-	.	8	0
-	+	1	29
-	+	1	18
-	+	1	59
-	+	2	0
-	+	7	13
-	+	8	0
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/9-print_last_digit.py
-	*	1704315162	0
-	"	3	26
-	^	3	27
-	.	4	0
-	+	3	27
-	+	1	18
-	+	3	27
-	+	4	0
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/100-print_tebahpla.py
-	*	1704314927	0
-	"	5	33
-	^	5	34
-	.	6	0
-	+	1	18
-	+	2	78
-	+	2	0
-	+	2	39
-	+	2	27
-	+	2	39
-	+	3	0
-	+	5	35
-	+	6	0
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/101-remove_char_at.py
-	*	1704314492	0
-	"	7	13
-	^	7	14
-	.	8	0
-	+	1	18
-	+	2	27
-	+	2	38
-	+	2	24
-	+	7	14
-	+	8	0
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/102-magic_calculation.py
-	*	1704313832	0
-	"	7	19
-	^	7	20
-	.	8	0
-	+	1	18
-	+	2	25
-	+	2	15
-	+	2	3
-	+	7	20
-	+	8	0
-
-> ~/alx-higher_level_programming/0x00-python-hello_world/101-compile
-	*	1704301040	0
-	"	2	9
-	^	2	10
-	.	2	9
-	+	21	2
-	+	1	11
-	+	2	34
-	+	3	0
-	+	2	9
-
-> ~/alx-higher_level_programming/0x00-python-hello_world/7-edges.py
-	*	1704300238	0
-	"	8	43
-	^	8	44
-	.	9	0
-	+	2	18
-	+	6	80
-	+	8	44
-	+	9	0
-
-> ~/alx-higher_level_programming/0x00-python-hello_world/6-concat.py
-	*	1704300092	0
-	"	5	35
-	^	5	36
-	.	6	0
-	+	4	36
-	+	4	105
-	+	4	0
-	+	4	69
-	+	5	0
-	+	5	36
-	+	6	0
-
-> ~/alx-higher_level_programming/0x00-python-hello_world/5-print_string.py
-	*	1704299738	0
-	"	4	13
-	^	4	14
-	.	5	0
-	+	2	24
-	+	4	14
-	+	5	0
-
-> ~/alx-higher_level_programming/0x00-python-hello_world/4-print_float.py
-	*	1704299507	0
-	"	2	15
-	^	2	16
-	.	2	15
-	+	1	42
-	+	1	8
-	+	1	16
-	+	1	29
-	+	3	29
-	+	4	0
-	+	3	28
-	+	2	15
-
-> ~/alx-higher_level_programming/0x00-python-hello_world/3-print_number.py
-	*	1704299272	0
-	"	3	34
-	^	3	35
-	.	3	16
-	+	1	54
-	+	3	76
-	+	1	18
-	+	3	41
-	+	1	18
-	+	2	0
-	+	4	0
-	+	3	16
-	+	2	11
-	+	3	0
-	+	2	10
-	+	3	16
-
-> ~/alx-higher_level_programming/0x00-python-hello_world/1-run_inline
-	*	1704298728	0
-	"	2	12
-	^	2	12
-	.	2	11
-	+	1	35
-	+	2	11
-
-> ~/alx-higher_level_programming/0x00-python-hello_world/0-run
-	*	1704298554	0
-	"	2	14
-	^	2	15
-	.	2	14
-	+	2	13
-	+	2	0
-	+	2	14
-
-> ~/alx-higher_level_programming/0x00-python-hello_world/lists.h
-	*	1704298026	0
-	"	25	19
-	^	25	20
-	.	26	0
-	+	25	20
-	+	26	0
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/3-print_alphabt.py
-	*	1704297688	0
-	"	5	33
-	^	5	34
-	.	6	0
-	+	2	85
-	+	2	24
-	+	2	133
-	+	3	0
-	+	5	34
-	+	6	0
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/2-print_alphabet.py
-	*	1704296914	0
-	"	3	42
-	^	3	43
-	.	3	42
-	+	1	43
-	+	1	110
-	+	1	18
-	+	1	67
-	+	2	0
-	+	3	42
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/lists.h
-	*	1704295997	0
-	"	25	19
-	^	25	20
-	.	25	19
-	+	25	19
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit.py
-	*	1704243708	0
-	"	15	0
-	^	15	0
-	.	14	0
-	+	4	41
-	+	14	0
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/7-islower.py
-	*	1704239014	0
-	"	3	42
-	^	3	43
-	.	3	42
-	+	3	41
-	+	1	18
-	+	3	42
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/12-fizzbuzz.py
-	*	1704237984	0
-	"	11	11
-	^	11	12
-	.	11	11
-	+	1	18
-	+	11	3
-	+	10	3
-	+	9	3
-	+	8	3
-	+	3	3
-	+	4	7
-	+	5	11
-	+	8	7
-	+	9	11
-	+	10	7
-	+	11	11
-
-> ~/alx-higher_level_programming/0x01-python-if_else_loops_functions/11-pow.py
-	*	1704237277	0
-	"	3	18
-	^	3	19
-	.	3	18
-	+	3	18
